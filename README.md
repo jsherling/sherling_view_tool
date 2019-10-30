@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-Add to view file to print out custom copyright date and message.
+```ruby
+SherlingViewTool::Renderer.copyright(name, message)
+```
 
 ## Development
 
@@ -30,4 +32,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sherling_view_tool.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jsherling/sherling_view_tool.
