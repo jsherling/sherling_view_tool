@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    sherling_view_tool (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.11.3)
+    rake (13.0.3)
+
+PLATFORMS
+  x86_64-darwin-18
+
+DEPENDENCIES
+  bundler (~> 2.2.17)
+  minitest (~> 5.11.3)
+  rake (~> 13.0.3)
+  sherling_view_tool!
+
+BUNDLED WITH
+   2.2.17
