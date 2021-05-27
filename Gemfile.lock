@@ -10,6 +10,7 @@ GEM
     rake (13.0.3)
 
 PLATFORMS
+  x86_64-darwin-16
   x86_64-darwin-18
 
 DEPENDENCIES
@@ -18,5 +19,8 @@ DEPENDENCIES
   rake (~> 13.0.3)
   sherling_view_tool!
 
+RUBY VERSION
+   ruby 3.0.0p0
+
 BUNDLED WITH
-   2.2.17
+   2.2.18
