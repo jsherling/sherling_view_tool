@@ -24,6 +24,10 @@ Or install it yourself as:
 SherlingViewTool::Renderer.copyright(name, message)
 ```
 
+- If the name argument is not provided, 'Name not provided!' will appear instead
+- The message argument defaults to 'All rights reserved' if not provided
+
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run
