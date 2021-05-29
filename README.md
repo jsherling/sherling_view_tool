@@ -24,8 +24,10 @@ Or install it yourself as:
 SherlingViewTool::Renderer.copyright(name, message)
 ```
 
-- If the name argument is not provided, 'Name not provided!' will appear instead
-- The message argument defaults to 'All rights reserved' if not provided
+- If the name argument is empty, 'Name not provided!' will appear
+    - '&copy; #{Time.now.year} | Name not provided!'
+- If provided, the message argument prepends an extra space
+    - '&copy; #{Time.now.year} | Big Corp All rights reserved'
 
 
 ## Development
